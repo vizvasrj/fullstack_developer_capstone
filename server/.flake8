@@ -1,0 +1,4 @@
+[flake8]
+max-line-length = 100  # Adjust to a preferred line length
+ignore = E501          # Ignore the line too long error
+
