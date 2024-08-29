@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dealership - About Us</title>
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+  <style>
+    .card {
+      border: none;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+    .container {
+      padding: 2px 16px;
+    }
+
+    .banner img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .title {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
+    <div class="banner" name="about-header">
+      <img class="card-img-top" src="/static/carshowroom.jpg" alt="Card image">
+    </div>
+  </div>
+  <div class="banner" name="about-header">
+  <h1 class="text-center">Contact Us</h1>
+  <div class="" name="about-header">
+      <img class="p5" src="/static/contact.jpg"  width="50%" alt="Card image">
+    </div>
+  </div>
+
+  <div class="container mt-5 p5">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <p class="title">Emily Carter</p>
+            <p>Marketing Manager</p>
+            <p class="card-text">Emily is a detail-oriented marketing manager with a strong grasp of consumer trends. She seeks a reliable and stylish vehicle that reflects her success.</p>
+            <p>Email: emily.carter@example.com</p>
+            <p>Phone: (555) 123-4567</p> 
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <p class="title">Michael Davis</p>
+            <p>Business Owner</p>
+            <p class="card-text">Michael prioritizes practicality and efficiency as a business owner. He'll likely seek a comfortable car with advanced technology to support his busy schedule.</p>
+            <p>Email: michael.davis@example.com</p>
+            <p>Phone: (555) 987-6543</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <p class="title">Sarah Rodriguez</p>
+            <p>Software Engineer</p>
+            <p class="card-text">Sarah, a software engineer, values innovation and cutting-edge technology. She's a prime target for electric vehicles with advanced connectivity, and she'll appreciate data-driven details.</p>
+            <p>Email: sarah.rodriguez@example.com</p>
+            <p>Phone: (555) 555-1212</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
